@@ -25,27 +25,27 @@
 - скриншот консоли ВМ yandex cloud с их метками
 - скриншот terraform console с содержимым модуля
 
-![1_1](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_1_1.png)
+![1_1](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_1_1.png)
 
-![1_2](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_1_2.png)
+![1_2](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_1_2.png)
 
-![1_3](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_1_3.png)
+![1_3](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_1_3.png)
 
-![1_4](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_1_4.png)
+![1_4](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_1_4.png)
 
-![1_5](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_1_5.png)
+![1_5](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_1_5.png)
 
-![1_6](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_1_6.png)
+![1_6](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_1_6.png)
 
-![1_7](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_1_7.png)
+![1_7](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_1_7.png)
 
-![1_8](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_1_8.png)
+![1_8](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_1_8.png)
 
-![1_9](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_1_9.png)
+![1_9](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_1_9.png)
 
-![1_10](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_1_10.png)
+![1_10](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_1_10.png)
 
-![1_11](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_1_11.png)
+![1_11](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_1_11.png)
 
 ---
 
@@ -67,14 +67,14 @@ module "vpc_dev" {
 3. Модуль возвращает в root module с помощью output информацию о yandex_vpc_subnet. 
 Скриншот информации из terraform console о модуле:
 
-![2_3_1](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_2_3_1.png)
+![2_3_1](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_2_3_1.png)
 
-![2_3_2](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_2_3_2.png)
+![2_3_2](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_2_3_2.png)
 
 4. Ресурсы yandex_vpc_network и yandex_vpc_subnet заменены созданным модулем.
 5. Сгенерирована документация к модулю с помощью terraform-docs.
 
-![2_5](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_2_5.png)
+![2_5](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_2_5.png)
 
 ---
 
@@ -101,11 +101,11 @@ terraform import 'module.analytics_vm.yandex_compute_instance.vm[0]' fv4suv879g1
 ```
 Проверен terraform plan. Значимых изменений нет.
 
-![3_4_1](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_3_4_1.png)
+![3_4_1](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_3_4_1.png)
 
-![3_4_2](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_3_4_2.png)
+![3_4_2](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_3_4_2.png)
 
-![3_4_3](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_3_4_3.png)
+![3_4_3](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_3_4_3.png)
 
 ------
 
@@ -129,15 +129,15 @@ module "vpc_dev" {
 ```
 План выполнения, результат из консоли YC.
 
-![4_1_1](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_4_1_1.png)
+![4_1_1](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_4_1_1.png)
 
-![4_1_2](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_4_1_2.png)
+![4_1_2](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_4_1_2.png)
 
-![4_1_3](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_4_1_3.png)
+![4_1_3](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_4_1_3.png)
 
-![4_1_4](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_4_1_4.png)
+![4_1_4](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_4_1_4.png)
 
-![4_1_5](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_4_1_5.png)
+![4_1_5](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_4_1_5.png)
 
 ---
 
@@ -148,9 +148,9 @@ module "vpc_dev" {
 3. С помощью данных модулей, создан кластер example из одного хоста, а затем добавлен в него БД test и пользователя app. После создания кластера изменена переменая HA и в кластер второй сервер.
 4. Скриншоты результата.
 
-![3_4_1](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_3_4_1.png)
+![3_4_1](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_3_4_1.png)
 
-![3_4_2](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_3_4_2.png)
+![3_4_2](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_3_4_2.png)
 
 ---
 
@@ -158,7 +158,7 @@ module "vpc_dev" {
 1. Использован готовый yandex cloud terraform module и пример его вызова(examples/simple-bucket): https://github.com/terraform-yc-modules/terraform-yc-s3 .
 Создан s3 бакет размером 1 ГБ.
 
-![6](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_6.png)
+![6](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_6.png)
 
 ---
 
@@ -166,18 +166,18 @@ module "vpc_dev" {
 
 1. Развернут локально vault, с помощью docker-compose.yml в проекте.
 
-![7_1](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_7_1.png)
+![7_1](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_7_1.png)
 
 2. Выполнен вход в web-интерфейс и авторизация terraform в vault использован токен "education".
 
-![7_2](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_7_2.png)
+![7_2](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_7_2.png)
 
 3. Создан новый секрет по пути http://127.0.0.1:8200/ui/vault/secrets/secret/create
 Path: example
 secret data key: test
 secret data value: congrats!
 
-![7_3](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_7_3.png)
+![7_3](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_7_3.png)
 
 4. Этот секрет считан с помощью terraform и выведен в output:
 
@@ -196,19 +196,19 @@ output "vault_example" {
 }
 ```
 
-![7_4](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_7_4.png)
+![7_4](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_7_4.png)
 
 5. Записать новый секрет в vault с помощью terraform.
 
-![7_5](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_7_5.png)
+![7_5](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_7_5.png)
 
 ---
 
 ### Задание 8*
 C помощью terraform remote state разделен root модуль на два отдельных root-модуля: создание VPC (./modul-vpc), создание ВМ (./modul-vm).
 
-![8_1](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_8_1.png)
+![8_1](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_8_1.png)
 
-![8_2](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_8_2.png)
+![8_2](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_8_2.png)
 
-![8_3](https://github.com/expgt/net-fops-hw-15-4/blob/main/15_4_8_3.png)
+![8_3](https://github.com/expgt/net-fops-hw-15-4/blob/terraform-04/15_4_8_3.png)
